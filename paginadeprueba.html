@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejemplo de posicionamiento de CSS</title>
+  <style>
+    /* Estilos generales */
+.contenedor {
+    width: 300px;
+    height: 200px;
+    background-color: #f0f0f0;
+    position: relative; /* Contenedor con posición relativa */
+}
+
+.elemento {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    color: #ffffff;
+    text-align: center;
+    line-height: 100px;
+    position: absolute; /* Elementos con posición absoluta */
+}
+
+/* Estilos específicos de elementos */
+.elemento1 {
+    top: 20px;
+    left: 20px;
+}
+
+.elemento2 {
+    top: 20px;
+    left: 140px;
+}
+
+.elemento3 {
+    top: 120px;
+    left: 120px;
+}
+
+    
+  </style>
+</head>
+<body>
+  <div class="elemento-1"></div>
+  <div class="elemento-2"></div>
+</body>
+</html>
